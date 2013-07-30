@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_vertical"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/captureButtonLabel" />
+
+    <ImageView
+        android:id="@+id/captureImageView"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.38"
+        android:contentDescription="@string/captureImageContentDesc"
+        android:src="@drawable/ic_action_search" />
+
+    <TextView
+        android:id="@+id/longitudeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/longitudeLabel" />
+
+    <TextView
+        android:id="@+id/latitudeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latitudeLabel" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveButtonLabel" />
+
+</LinearLayout>
